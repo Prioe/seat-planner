@@ -4,8 +4,4 @@
 
 ## Usage
 
-Build it by running `webpack`, develop it by running
-
-```
-webpack-dev-server --content-base dist/ --inline --hot
-```
+Build it by running `npm run build`, develop it by running `npm start`

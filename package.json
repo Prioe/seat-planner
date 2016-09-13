@@ -1,23 +1,26 @@
 {
   "name": "webpack-recipe",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My teeny tiny webpack boilerplate",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base dist/ --inline --hot"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Michael Albertz <michael@prio.one>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Prioe/webpack-recipe.git"
+  },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.14.0",
     "bulma": "^0.1.2",
     "copy-webpack-plugin": "^3.0.1",
     "css-loader": "^0.25.0",
-    "eslint": "^3.5.0",
-    "eslint-plugin-babel": "^3.3.0",
+    "eslint-loader": "^1.5.0",
     "jquery": "^3.1.0",
     "node-sass": "^3.9.3",
     "pug": "^2.0.0-beta6",
@@ -25,5 +28,10 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-plugin-babel": "^3.3.0"
   }
 }
