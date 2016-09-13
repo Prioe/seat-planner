@@ -1,7 +1,7 @@
 {
-  "name": "webpack-recipe",
+  "name": "seat-planner",
   "version": "1.0.0",
-  "description": "My teeny tiny webpack boilerplate",
+  "description": ".",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
@@ -10,9 +10,10 @@
   "keywords": [],
   "author": "Michael Albertz <michael@prio.one>",
   "license": "MIT",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Prioe/webpack-recipe.git"
+    "url": "https://github.com/Prioe/seat-planner.git"
   },
   "devDependencies": {
     "babel-loader": "^6.2.5",
