@@ -1,7 +1,18 @@
-# webpack-recipe
+# seat-planner
 
-> My teeny tiny webpack boilerplate
+> gh-pages to create nice seating charts.
 
 ## Usage
 
 Build it by running `npm run build`, develop it by running `npm start`
+deploy it by running
+
+```
+git add dist && git commit -m "dist subtree commit"
+```
+
+followed by
+
+```
+npm run deploy
+```
