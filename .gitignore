@@ -1,0 +1,12 @@
+# .gitignore ~
+# append '/' to directories
+
+# node.js
+node_modules/
+/dist/
+/coverage/
+
+# npm
+npm-debug.log
+favicon-markup.json
+Thumbs.db
