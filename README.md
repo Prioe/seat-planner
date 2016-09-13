@@ -4,14 +4,11 @@
 
 ## Usage
 
-Build it by running `npm run build`, develop it by running `npm start`
-deploy it by running
+Build it by running `npm run build`, develop it by running `npm start`.
 
-```
-git add dist && git commit -m "dist subtree commit"
-```
+## Deployment
 
-followed by
+To deploy, build the site first, add and commit to the repository, followed by
 
 ```
 npm run deploy
