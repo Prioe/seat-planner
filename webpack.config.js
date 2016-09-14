@@ -16,7 +16,8 @@ module.exports = {
     alias: {
       sass: path.resolve(__dirname, './src/sass'),
       javascript: path.resolve(__dirname, './src/javascript'),
-      pug: path.resolve(__dirname, './src/pug')
+      pug: path.resolve(__dirname, './src/pug'),
+      project: path.resolve(__dirname)
     }
   },
   module: {
@@ -32,6 +33,10 @@ module.exports = {
       {
         test: /\.pug$/,
         loaders: ['pug']
+      },
+      {
+        test: /\.json$/,
+        loaders: ['json']
       },
       {
         test: /\.js$/,

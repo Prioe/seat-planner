@@ -1,1 +1,7 @@
 @import "~bulma/bulma";
+@import "components/dropzone";
+
+// hack to show stuff only once the css is loaded
+body {
+  display: block;
+}

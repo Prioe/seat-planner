@@ -1,2 +1,6 @@
 import 'sass/main.scss';
-import 'javascript/controller/example-controller';
+import MainController from 'javascript/controller/main-controller';
+import * as pkg from 'project/package';
+
+const main = new MainController(pkg);
+main.init();
