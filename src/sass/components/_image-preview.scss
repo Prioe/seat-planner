@@ -1,0 +1,11 @@
+.preview {
+  overflow-y: hidden;
+  overflow-x: auto;
+  &-container {
+    display: flex;
+    & > * {
+      flex: none;
+      margin: 0 2px;
+    }
+  }
+}

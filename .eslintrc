@@ -166,7 +166,7 @@ rules:
   - never
   brace-style:
   - 1
-  - stroustrup
+  - 1tbs
   - allowSingleLine: true
   camelcase:
   - 1

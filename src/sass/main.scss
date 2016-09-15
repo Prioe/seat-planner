@@ -1,5 +1,8 @@
+@import "variables";
 @import "~bulma/bulma";
 @import "components/dropzone";
+@import "components/file-input";
+@import "components/image-preview";
 
 // hack to show stuff only once the css is loaded
 body {

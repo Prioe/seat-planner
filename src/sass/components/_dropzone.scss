@@ -1,9 +1,5 @@
 .dropzone {
-  width: 100px;
-  height: 100px;
-  border-style: dashed;
-  border-width: 2px;
-  &__dragging {
-    background-color: lightgreen;
+  & * {
+    pointer-events: none;
   }
 }

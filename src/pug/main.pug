@@ -1,0 +1,40 @@
+section.hero.is-primary
+  // Hero header: will stick at the top
+  .hero-head
+    header.nav
+      .container
+        .nav-left
+          span.nav-item
+            a.button.is-primary(href='/')
+              img(src=logo, alt='Sitzplaner Logo')
+        .nav-center
+          a.nav-item(href='https://github.com/Prioe')
+            span.icon
+              i.fa.fa-github
+        .nav-right.nav-menu
+          span.nav-item
+            .file-input
+              a.button.is-primary(href='#')
+                span.icon
+                  i.fa.fa-plus-circle
+                span Bilder hinzufügen
+              input.file-input__input(type='file', multiple)
+          span.nav-item
+            a.button.is-primary.is-disabled(href='#')
+              span.icon
+                i.fa.fa-download
+              span Download
+
+  .hero-body
+    .container
+      .preview.box
+        #preview-images.preview-container
+
+
+#dropzone.dropzone.modal
+  .modal-background
+  .modal-container
+    .modal-content
+      .container.has-text-centered
+        h1.subtitle.is-1 Bilder hinzufügen
+        i.fa.fa-copy.fa-5x
