@@ -10,8 +10,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '/js/[name].js',
-    publicPath: develop ? '' : '/seat-planner'
+    filename: 'js/[hash].js',
+    publicPath: develop ? '' : '/seat-planner/'
   },
   devtool: develop ? 'inline-source-map' : '',
   resolve: {
@@ -72,8 +72,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Sitzplaner',
-      template: './src/assets/templates/index.pug',
-      baseurl: 'gh-pages'
+      template: './src/assets/templates/index.pug'
     }),
     new CopyWebpackPlugin([
       {
